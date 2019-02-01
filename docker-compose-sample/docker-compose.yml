@@ -16,7 +16,7 @@ services:
   postgres:
     image: postgres
     environment: 
-      - POSTGRES_PASSWORD=qwe123qwe
+      - POSTGRES_PASSWORD=postgres
 volumes: 
   drupal-modules:
   drupal-profiles:
